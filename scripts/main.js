@@ -1,7 +1,6 @@
 let myImage = document.querySelector('img');
-let myHtml = document.querySelector('html');
 
-myHtml.onclick = function() {
+document.querySelector('html').onclick = function() {
   alert("大傻逼");
 }
 
