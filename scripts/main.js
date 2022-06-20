@@ -7,9 +7,9 @@ document.querySelector('html').onclick = function() {
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/wife.jpg') {
-      myImage.setAttribute('src', 'images/wife2.jpg');
+      myImage.setAttribute('src', 'images/lp_li_2.jpg');
     } else {
-      myImage.setAttribute('src', 'images/wife.jpg');
+      myImage.setAttribute('src', 'images/lp_li.jpg');
     }
 }
 
