@@ -2,7 +2,7 @@ let myImage = document.querySelector('img');
 let myHtml = document.querySelector('html');
 
 myHtml.onclick = function() {
-  alert("大傻逼")
+  alert("大傻逼");
 }
 
 myImage.onclick = function() {
