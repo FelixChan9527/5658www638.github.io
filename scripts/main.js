@@ -1,4 +1,9 @@
 let myImage = document.querySelector('img');
+let myHtml = document.querySelector('html');
+
+myHtml.onclick = function() {
+  alert("大傻逼")
+}
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
